@@ -25,5 +25,7 @@ public class ex05 {
     System.out.println("Pontos ganhos: " + pontosGanhos);
     System.out.println("Pontos perdidos: " + pontosPerdidos);
 
+    scanner.close();
+
   }
 }

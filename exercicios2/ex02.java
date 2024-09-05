@@ -8,9 +8,9 @@ public class ex02 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("Entre com o ano atual");
+    System.out.print("Entre com o ano atual: ");
     int anoAtual = scanner.nextInt();
-    System.out.print("Entre com o seu ano de nascimento");
+    System.out.print("Entre com o seu ano de nascimento: ");
     int anoNascimento = scanner.nextInt();
 
     int idade = anoAtual - anoNascimento;
