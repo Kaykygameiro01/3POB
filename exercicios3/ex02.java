@@ -1,6 +1,6 @@
 
 /*2.  Faça um programa que calcule e escreva no vídeo o somatório dos números inteiros de 1 até 50. */
-package exercicios03;
+package exercicios3;
 
 public class ex02 {
   public static void main(String[] args) {

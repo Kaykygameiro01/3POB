@@ -1,7 +1,7 @@
 /* 5.  Crie um programa que leia a altura de um número indeterminado de pessoas. Ao final o programa deve informar o total de pessoas cadastradas, a quantidade de pessoas com altura inferior a 1,60 metros; a quantidade de pessoas com altura entre 1,60 metros e 1,80 metros e a quantidade de pessoas com altura superior a 1,80 metros.
 */
 
-package exercicios03;
+package exercicios3;
 
 import java.util.Scanner;
 

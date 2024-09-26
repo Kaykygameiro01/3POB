@@ -1,6 +1,6 @@
 /*7.  Faça um programa que leia vários números inteiros e ao final escreva o maior.
  */
-package exercicios03;
+package exercicios3;
 
 import java.util.Scanner;
 

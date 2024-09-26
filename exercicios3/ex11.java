@@ -1,5 +1,5 @@
 /*11. Um determinado material radioativo perde metade de sua massa a cada 50 segundos. Dada a massa inicial, em gramas, fazer um algoritmo que determine o tempo necessário para que essa massa se torne menor do que 0.5 gramas. Escreva a massa final, e o tempo. Observação: o usuário deve digitar a massa inicial. */
-package exercicios03;
+package exercicios3;
 
 import java.util.Scanner;
 

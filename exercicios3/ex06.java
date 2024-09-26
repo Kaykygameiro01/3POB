@@ -1,7 +1,7 @@
 /*
 6.  Elabore um programa que leia a idade de diversas pessoas e ao final informe: o total de pessoas cadastradas, a
 porcentagem de pessoas com idade inferior a 18 anos, a porcentagem de pessoas com idade igual ou superior a 18 anos. */
-package exercicios03;
+package exercicios3;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;

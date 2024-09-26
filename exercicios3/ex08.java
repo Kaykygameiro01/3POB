@@ -1,7 +1,7 @@
 /*8.  Crie um programa que leia o nome e a altura de 10 pessoas e ao final escreva: a altura média do grupo, o nome e a altura da pessoa mais alta.
  */
 
-package exercicios03;
+package exercicios3;
 
 import java.util.Scanner;
 

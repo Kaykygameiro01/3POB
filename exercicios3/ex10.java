@@ -1,6 +1,6 @@
 /*Elabore um programa que leia diversos números e ao final escreva: a quantidade de números digitados, a quantidade de números pares, a quantidade de números ímpares.
 */
-package exercicios03;
+package exercicios3;
 
 import java.util.Scanner;
 
