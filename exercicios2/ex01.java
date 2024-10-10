@@ -21,4 +21,5 @@ public class ex01 {
       System.out.print("É menor");
     }
   }
+  scanner.close();
 }
