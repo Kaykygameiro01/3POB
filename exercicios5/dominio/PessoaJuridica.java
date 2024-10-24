@@ -1,26 +1,30 @@
 package exercicios5.dominio;
 
 public class PessoaJuridica extends Cliente {
-    
-    public PessoaJuridica(String razaoSocial, double cnpj) {
-        
-        super(razaoSocial,cnpj);
+    private String razaoSocial;
+    private String cnpj;
+
+    // Construtor
+    public PessoaJuridica(String razaoSocial, String endereco, String telefone, String cnpj) {
+        super(razaoSocial, endereco, telefone);
         this.razaoSocial = razaoSocial;
         this.cnpj = cnpj;
     }
 
-    public String getNome() {
+    public String getRazaoSocial() {
         return razaoSocial;
     }
 
-    public double getCnpj() {
+    public String getCnpj() {
         return cnpj;
     }
 
     @Override
     public void mostrarInfo() {
-        super.mostrarInfo();
-        System.out.println("razaoSocial: " + razaoSocial);
+        System.out.println("Pessoa Jurídica:");
+        System.out.println("Razão Social: " + razaoSocial);
+        System.out.println("Endereço: " + endereco);
+        System.out.println("Telefone: " + telefone);
         System.out.println("CNPJ: " + cnpj);
     }
 }

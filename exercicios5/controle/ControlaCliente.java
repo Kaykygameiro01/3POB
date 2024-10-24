@@ -1,6 +1,5 @@
 package exercicios5.controle;
 
-    
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -12,7 +11,7 @@ import exercicios5.dominio.PessoaJuridica;
 public class ControlaCliente {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Cliente> funcionarios = new ArrayList<>();
+        List<Cliente> clientes = new ArrayList<>();
 
         System.out.println("Sistema de Gerenciamento de Clientes");
         System.out.println("----------------------------------------");
@@ -37,10 +36,9 @@ public class ControlaCliente {
                 String telefone = scanner.nextLine();
                 System.out.print("CPF: ");
                 String cpf = scanner.nextLine();
-                
 
                 PessoaFisica pf = new PessoaFisica(nome, endereco, telefone, cpf);
-                funcionarios.add(pf);
+                clientes.add(pf);
 
             } else if (opcao == 2) {
                 System.out.print("Razão Social: ");
@@ -52,8 +50,8 @@ public class ControlaCliente {
                 System.out.print("CNPJ: ");
                 String cnpj = scanner.nextLine();
 
-                PessoaJuridica  = new PessoaJuridica(razaoSocial, endereco, telefone, cnpj);
-                funcionarios.add(fh);
+                PessoaJuridica pj = new PessoaJuridica(razaoSocial, endereco, telefone, cnpj);
+                clientes.add(pj);
 
             } else if (opcao == 3) {
                 continuar = false;
@@ -64,10 +62,10 @@ public class ControlaCliente {
 
         scanner.close();
 
-        System.out.println("\nRelatório de Funcionários:");
+        System.out.println("\nRelatório de Clientes:");
         System.out.println("--------------------------");
-        for (Funcionario f : funcionarios) {
-            f.mostrarInfo();
+        for (Cliente c : clientes) {
+            c.mostrarInfo();
             System.out.println();
         }
     }

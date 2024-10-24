@@ -5,17 +5,16 @@ public abstract class Cliente {
     protected String telefone;
     protected String nome;
 
-
-    public Cliente(String endereco, String telefone){
+    public Cliente(String endereco, String telefone) {
         this.endereco = endereco;
         this.telefone = telefone;
     }
 
-    public String getEndereco(){
+    public String getEndereco() {
         return endereco;
     }
 
-    public String getTelefone(){
+    public String getTelefone() {
         return telefone;
     }
 
@@ -23,19 +22,5 @@ public abstract class Cliente {
         System.out.println("Endereço: " + endereco);
         System.out.println("Telefone: R$ " + telefone);
 
+    }
 }
-}
-
-
-
-    
-
-
-
-
-
-
-
-
-
-

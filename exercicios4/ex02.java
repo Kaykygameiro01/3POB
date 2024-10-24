@@ -1,5 +1,5 @@
 /* Elabore um programa usando listas que leia a matrícula e o salário bruto de 100 empregados. Os dados devem ser armazenados em listas. O programa deve descontar 11% do salário bruto de cada empregado e ao final escrever: a matrícula, o salário bruto, o desconto e o salário líquido de cada empregado. */
-package fase04.L04Exercicio02;
+package exercicios4;
 
 import java.util.ArrayList;
 import java.util.Scanner;

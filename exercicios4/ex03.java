@@ -13,7 +13,7 @@ public class ex03 {
     ArrayList<Integer> codigos = new ArrayList<>();
 
     // Leitura dos dados de 100 pessoas
-    for (int i = 1; i <= 100; i++) {
+    for (int i = 1; i <= 4; i++) {
       System.out.print("Digite o nome da pessoa " + i + ": ");
       String nome = sc.next();
       nomes.add(nome);

@@ -1,7 +1,10 @@
 /*1.  Faça um programa utilizando listas que leia o nome e a altura de 50 pessoas e ao final escreva o nome e a altura das pessoas com mais de 1,70 metros.
  */
 
-package exercicios4;Scanner scanner=new Scanner(System.in);
+package exercicios4;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ex01 {
   public static void main(String[] args) {
