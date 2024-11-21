@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GerenciarPacientes {
-  private final String arquivo = "pacientes.txt";
+  private final String arquivo = "ExercicioArquivo/dominio/pacientes.txt";
 
   public void incluirPaciente(Paciente paciente) {
     try (BufferedWriter writer = new BufferedWriter(new FileWriter(arquivo, true))) {
