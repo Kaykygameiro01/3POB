@@ -1,4 +1,4 @@
-package exercicios5.dominio;
+package Heranca.fabrica.dominio;
 
 public class PessoaFisica extends Cliente {
     private String cpf;

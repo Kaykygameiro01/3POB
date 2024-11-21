@@ -1,13 +1,18 @@
-package exercicios5.dominio;
+package Heranca.fabrica.dominio;
 
 public abstract class Cliente {
+    protected String nome;
     protected String endereco;
     protected String telefone;
-    protected String nome;
 
-    public Cliente(String endereco, String telefone) {
+    public Cliente(String nome, String endereco, String telefone) {
+        this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
+    }
+
+    public String getNome() {
+        return nome;
     }
 
     public String getEndereco() {
@@ -19,8 +24,8 @@ public abstract class Cliente {
     }
 
     public void mostrarInfo() {
+        System.out.println("Nome: " + nome);
         System.out.println("Endereço: " + endereco);
-        System.out.println("Telefone: R$ " + telefone);
-
+        System.out.println("Telefone: " + telefone);
     }
 }
