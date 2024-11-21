@@ -1,11 +1,12 @@
-package Heranca.fabrica.empresa.controle;
+package Heranca.empresa.controle;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import Heranca.fabrica.empresa.dominio.Funcionario;
-import Heranca.fabrica.empresa.dominio.Gerente;
-import Heranca.fabrica.empresa.dominio.Vendas;
+
+import Heranca.empresa.dominio.Funcionario;
+import Heranca.empresa.dominio.Gerente;
+import Heranca.empresa.dominio.Vendas;
 
 public class ControlaFuncionario {
     public static void main(String[] args) {

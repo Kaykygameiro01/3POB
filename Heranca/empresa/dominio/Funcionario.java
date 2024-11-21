@@ -1,4 +1,4 @@
-package Heranca.fabrica.empresa.dominio;
+package Heranca.empresa.dominio;
 
 public class Funcionario {
   private String matricula;
